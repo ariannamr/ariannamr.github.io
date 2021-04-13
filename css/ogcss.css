@@ -10,14 +10,45 @@ body{
 
 .text01{
     text-align: center;
-    padding-top: 550px;
+    padding-top: 320px;
     float: center;
     align-self: center;
     font-family: "pink and brown";
- 
+
     
     
 }
+
+
+.text02{
+    text-align: center;
+    float: center;
+    align-self: center;
+    font-family: "pink and brown";
+   
+  
+    
+    
+}
+
+.text03{
+    text-align: center;
+    float: center;
+    align-self: center;
+    font-family: "pink and brown";
+   
+}
+
+.text04{
+    text-align: center;
+    float: center;
+    align-self: center;
+    font-family: "pink and brown";
+    transform: rotate(60deg);
+  
+   
+}
+
 .font-size{
     font-size: 100px;
     width: 100;
