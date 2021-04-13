@@ -1,0 +1,40 @@
+body{
+    background-image: url(/img/background.jpg);
+    
+}
+
+@font-face{
+    font-family:pink and brown;
+        src: url('/Fonts/Pink_and_Brown-Regular.otf');
+}
+
+.text01{
+    text-align: center;
+    padding-top: 550px;
+    float: center;
+    align-self: center;
+    font-family: "pink and brown";
+ 
+    
+    
+}
+.font-size{
+    font-size: 100px;
+    width: 100;
+    animation: fadeIn ease 6s;
+-webkit-animation: fadeIn ease 6s;
+  
+    
+}
+
+.container{
+    align-content: center;
+    
+}
+
+.body{
+   position: relative;
+}
+
+
+
