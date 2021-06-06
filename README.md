@@ -1,2 +1,0 @@
-# ariannamr.github.io
- ,,,,

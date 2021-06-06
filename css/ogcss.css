@@ -10,7 +10,7 @@ body{
 
 .text01{
     text-align: center;
-    padding-top: 320px;
+    padding-top: px;
     float: center;
     align-self: center;
     font-family: "pink and brown";
@@ -36,6 +36,11 @@ body{
     float: center;
     align-self: center;
     font-family: "pink and brown";
+    position: absolute;
+    align-content: center;
+    padding-left: 100px;
+    
+    
    
 }
 
@@ -44,7 +49,7 @@ body{
     float: center;
     align-self: center;
     font-family: "pink and brown";
-    transform: rotate(60deg);
+    transform: rotate(0deg);
   
    
 }
@@ -67,5 +72,17 @@ body{
    position: relative;
 }
 
+.letter{
+    align-content: center;
+    padding-left: 95px;
+    padding-right: 5px;
+    padding-top: 10px;
+    height: 700px
+}
 
+.Words{
+    position: absolute;
+    align-content: center;
+    padding-bottom: 13px;
+}
 
