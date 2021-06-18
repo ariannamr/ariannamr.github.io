@@ -36,6 +36,7 @@ body{
     float: center;
     align-self: center;
     font-family: "pink and brown";
+    font-size: 29px;
   
     
     
@@ -48,6 +49,7 @@ body{
     align-self: center;
     font-family: "pink and brown";
     transform: rotate(0deg);
+    font-size: 24px;
   
    
 }
