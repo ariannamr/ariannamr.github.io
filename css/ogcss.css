@@ -1,0 +1,96 @@
+#videoBG{
+    position: fixed;
+    z-index: -1;
+   
+}
+
+@media (min-aspect-ratio: 16/9){
+    #videoBG{
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-aspect-ratio: 16/9){
+    #videoBG{
+        width: auto%;
+        height: 100%;
+    }
+}
+
+@media (max-width: 767px){
+    #videoBG{
+        display: none;
+    }
+    body{
+        background: url("/img/taylor.gif");
+        background-size:cover;
+        background-repeat: repeat;
+    }
+}
+
+@font-face{
+    font-family:"pink and brown";
+        src: url('/Fonts/Pink_and_Brown-Regular.otf');
+}
+
+@font-face{
+    font-family:"bodoni";
+        src: url('/Fonts/Bodoni-06-Book.otf');
+}
+
+.text02{
+    float: center;
+    align-self: center;
+    font-family: "bodoni";
+    color: aliceblue;
+    text-align: center;
+    
+}
+
+.text01{
+    text-align: center;
+    padding-top: 200px;
+    float: center;
+    align-self: center;
+    font-family: "bodoni";
+    color: aliceblue;
+  
+}
+
+
+.text03{
+    font-family: "bodoni";
+    color: aliceblue;
+    float: center;
+    align-self: center;
+    font-size: 7px;
+    
+}
+
+.font-size{
+    font-size: 100px;
+    width: 100;
+    animation: fadeIn ease 6s;
+-webkit-animation: fadeIn ease 6s;
+  
+    
+}
+
+.container{
+    align-content: center;
+    
+}
+
+.body{
+   position: relative;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+}
